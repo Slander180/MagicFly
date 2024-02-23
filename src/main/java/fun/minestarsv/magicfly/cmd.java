@@ -12,12 +12,10 @@ public class cmd implements CommandExecutor {
         if (sender instanceof Player){
 
             if (is_fly){
-                player.setAllowFlight(false);
                 player.setFlying(false);
                 player.sendMessage(ChatColor.RED + "Flight disabled  ");
             }
             else {
-                player.setAllowFlight(true);
                 player.setFlying(true);
                 player.sendMessage(ChatColor.YELLOW + "Flight activated  ");
             }
