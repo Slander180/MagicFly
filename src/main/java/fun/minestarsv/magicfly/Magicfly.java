@@ -1,8 +1,5 @@
 package fun.minestarsv.magicfly;
 
-import org.bukkit.ChatColor;
-import org.bukkit.plugin.java.JavaPlugin;
-
 public final class Magicfly extends JavaPlugin {
 
     @Override
